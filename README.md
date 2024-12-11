@@ -73,9 +73,14 @@ Predict whether a patient's metastatic breast cancer diagnosis period is less th
   - AUC-ROC, precision, recall, confusion matrix, and feature importance.
 - **Results**:
   - XGBoost outperformed baseline models:
-    - AUC-ROC: 0.78.
-    - F1-Score for positive class: ~0.84.
-    - Precision-Recall Curve AUC: ~0.82.
+    precision    recall  f1-score   support
+
+           0       0.71      0.61      0.65       937
+           1       0.79      0.85      0.82      1614
+
+    accuracy                           0.76      2551
+   macro avg       0.75      0.73      0.74      2551
+weighted avg       0.76      0.76      0.76      2551
 
 ---
 
