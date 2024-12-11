@@ -34,6 +34,10 @@ Predict whether a patient's metastatic breast cancer diagnosis period is less th
   - Visualized distributions of age, environmental factors (Ozone, PM25), and medical history across classes.
 - **Correlation Heatmap**:
   - Identified relationships between important features like `diagnosis codes` and `socioeconomic factors`.
+![image](https://github.com/user-attachments/assets/940f61b6-745c-468b-85d9-b957b7461033)
+![image](https://github.com/user-attachments/assets/1164ab14-513c-4dbb-8fb1-d720a6965b74)
+![image](https://github.com/user-attachments/assets/430a485e-dd67-47cc-9c2c-c07e3f65134f)
+
 
 ---
 
@@ -80,6 +84,7 @@ Predict whether a patient's metastatic breast cancer diagnosis period is less th
 - The XGBoost model successfully identified patterns in medical and socioeconomic features that influence diagnosis timing.
 - Feature importance revealed key factors like `breast_cancer_diagnosis_code`, `age`, and `payer_type`.
 - Class imbalance remains a challenge, but weighted loss functions improved recall for the minority class.
+![image](https://github.com/user-attachments/assets/5efb1956-8ef8-4847-9cf2-c4fe1806f917)
 
 ---
 
