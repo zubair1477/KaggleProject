@@ -86,7 +86,7 @@ weighted avg       0.76      0.76      0.76      2551
 
 ### **Conclusions**
 
-- The XGBoost model successfully identified patterns in medical and socioeconomic features that influence diagnosis timing.
+- The XGBoost model showed some important features.
 - Feature importance revealed key factors like `breast_cancer_diagnosis_code`, `age`, and `payer_type`.
 - Class imbalance remains a challenge, but weighted loss functions improved recall for the minority class.
 ![image](https://github.com/user-attachments/assets/5efb1956-8ef8-4847-9cf2-c4fe1806f917)
@@ -99,7 +99,7 @@ weighted avg       0.76      0.76      0.76      2551
    - Explore interaction terms between socioeconomic and environmental factors.
 2. **Refine Model**:
 3. **Enhance Class Balancing**:
-   - Fine-tune SMOTE or experiment with undersampling techniques.
+   - experiment with undersampling techniques/other ways
 4. **Real World Impact**:
     - Help the medical field analyze what factors into late/early diagnoses
 
