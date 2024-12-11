@@ -1,10 +1,12 @@
 ### Metastatic Breast Cancer Diagnosis Prediction
 
+### Challenge
+Predict whether a patient's metastatic breast cancer diagnosis period is less than 90 days by using the features in the given dataset. The ultimate goal is to have a robust model capable of identifying patterns in patient characteristics that influence timely diagnosis.
 
 #### **Data Type:**
 - **Input**: A CSV file containing patient information, medical history, geographic, socioeconomic, and environmental data. 
 - **Output**: Binary target variable `DiagPeriodL90D` indicating whether a patient’s cancer diagnosis period is less than 90 days.
-- **Size**: ~12,000 data points. ~10,000 after data cleaning
+- **Size**: (12,906,83). ~10,000 after data cleaning
   - Training: ~8,000 samples.
   - Validation: ~2,500 samples.
   - Test: ~1,500 samples.
