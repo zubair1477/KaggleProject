@@ -98,7 +98,6 @@ weighted avg       0.76      0.76      0.76      2551
 1. **Improve Feature Engineering**:
    - Explore interaction terms between socioeconomic and environmental factors.
 2. **Refine Model**:
-   - Experiment with advanced boosting models like LightGBM.
 3. **Enhance Class Balancing**:
    - Fine-tune SMOTE or experiment with undersampling techniques.
 4. **Real World Impact**:
